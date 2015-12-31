@@ -83,5 +83,5 @@ cleanLastResult() {
 }
 #makeChineseOtf
 cleanLastResult
-#makeChineseSpecificOtf
-#copyToReleaseDir
+makeChineseSpecificOtf
+copyToReleaseDir
