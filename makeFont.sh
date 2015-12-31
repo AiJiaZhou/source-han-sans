@@ -78,6 +78,10 @@ copyToReleaseDir() {
 }
 
 
+cleanLastResult() {
+	rm -rf `git status -s | cut -d\  -f2`
+}
 #makeChineseOtf
-makeChineseSpecificOtf
-copyToReleaseDir
+cleanLastResult
+#makeChineseSpecificOtf
+#copyToReleaseDir
